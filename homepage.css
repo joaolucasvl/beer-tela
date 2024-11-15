@@ -122,14 +122,16 @@ button:active {
 
     .header {
         flex-direction: column;
-        align-items: flex-start;
+        align-items: center;
     }
 
     main {
+        min-height: 600px;
         padding: 20px;
     }
 
     .torneira {
         width: 100%; /* Torneiras ocupam toda a largura em telas pequenas */
+        margin-bottom: 150px;
     }
 }
