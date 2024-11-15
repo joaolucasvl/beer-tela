@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Controle da máquina de auto-serviço Monaco Beer para monitoramento de torneiras e vendas.">
+    <title>Controle Maquina de Auto Serviço</title>
+    <link rel="stylesheet" href="homepage.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Monaco Beer Controle</h1>
+        <button id="logoutButton" aria-label="Sair do sistema">Sair</button>
+    </div>
+
+    <main>
+        <div id="torneira-1-data" class="torneira"></div> <!-- Contêiner para dados da Torneira 1 -->
+        <div id="torneira-2-data" class="torneira"></div> <!-- Contêiner para dados da Torneira 2 -->
+    </main>
+
+    <footer>
+        <p>© 2024 Monaco Beer - Todos os direitos reservados.</p>
+    </footer>
+
+    <script type="module" src="firebaseauth.js"></script> <!-- Script para Firebase e exibir os dados -->
+    <script type="module" src="homepage.js"></script> <!-- Script específico para carregar dados na homepage -->
+</body>
+</html>
